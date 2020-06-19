@@ -1,0 +1,199 @@
+@media (max-width:1145px){
+	.container{
+		max-width: 850px;
+	}
+	.logo{
+		margin-right: 14px;
+	}
+	.header{
+		padding-left: 14px;
+	}
+	.search-input{
+		margin-left: 27px;
+		font-size: 16px;
+	}
+	.navigation{
+		margin-right: 28px;
+	}
+	.navigation-link{
+		font-size: 16px;
+	}
+	.button_registation{
+		padding: 0px 24px;
+	}
+	}
+
+	@media (max-width:1145px){
+		/* .navigation-link{
+			display: none;
+		} */
+		.container{
+			max-width: 750px;
+		}
+		.actor-image{
+			width: 80px;
+			height: 80px;
+			margin-right: 15px;
+		}
+		.film-trailer{
+			margin-right: 40px;
+		}
+		.film-info-left{
+			margin-right: 20px;
+		}
+		.film-describe-title{
+			font-size:26px;
+		}
+		.strong{
+			margin-right: 5px;
+			font-size: 12px;
+		}
+		.light{
+			font-size: 12px;
+		}
+		.film-describe-text{
+			font-size: 12px;
+		}
+		.news-card{
+			background-color: #ffffff;
+			margin-right: 15px;
+			flex-basis: 20%;
+			padding: 30px;
+		}
+	}
+
+	@media (max-width:768px){
+		.container{
+			max-width: 650px;
+		}
+		.header{
+			height: 80px;
+		}
+		.menu-mob-btn{
+			display: block;
+			margin: auto 0;
+		}
+		/* .button-group{
+			display: none;
+		} */
+		.film-info{
+			display: block;
+		}
+		.actor-item{
+			flex-basis:50%;
+		}
+		.news-card{
+			margin-right: 10px;
+			flex-basis: 45%;
+			padding: 20px;
+			margin-bottom: 0px;
+			width: 80%;
+			
+		}
+		.button-next{
+			display: block;
+		}
+		.film{
+			padding: 50px 0px;
+		}
+		.film-wrapper{
+			display: flex;
+			flex-direction: column;
+		}
+		.film-describe{
+			order: -1;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+		.film-trailer{
+			margin: 0 auto;
+		}
+		.film-trailer-image{
+			width: 100%;
+		}
+		.film-info{
+			flex-basis: 30%;
+		}
+		.m-menu{
+			display: none;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+			position: fixed;
+			top: 68px;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			height: calc(100%-68px);
+			background: #5671F6;
+		}
+		.m-menu.active{
+			display: flex;
+		}
+		.button-group {
+			height: auto;
+			display: flex;
+		  	flex-direction: column;
+		  	justify-content: center;
+		  	align-items: center;
+	  }
+	  .button_registation {
+		  background: transparent;
+		  color: #ffffff;
+		  border: none;
+		  margin-bottom: 30px;
+	  }
+	  .navigation {
+		  margin-left: 0;
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+		  align-items: center;
+		  margin-right: 0;
+	  }
+	  .navigation-link{
+		  color: #ffffff;
+		  margin-bottom: 18px;
+		  margin-right: 0;
+	  }
+	  .navigation-link:last-child{
+		  margin-bottom: 0;
+	  }
+	  .search-input{
+		  margin: 0px;
+		  width: 260px;
+		  height: 50px;
+		  border-radius: 5px;
+		  border: none;
+		  background-image: none;
+
+	  }
+
+		
+	}
+	@media (max-width:576px){
+		.search-input{
+			background-position: center right;
+			padding-left:38px ;
+			margin-left: 37px;
+		}
+		.film-describe{
+			order: 0;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+		.film-describe{
+			order: 1;
+			margin: 0 auto;
+			margin-bottom: 20px;
+			padding: 0 10px;
+		}
+		.actor-item{
+			flex-basis:100%;
+		}
+		.news-card{
+			flex-basis: 80%;
+			margin: 0 auto;
+			margin-bottom: 10px;
+		}
+	}
